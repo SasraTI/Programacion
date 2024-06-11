@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import LoginForm from './LoginForm/LoginForm.jsx';
-
+import Navbar from './componentes/navbar.jsx'
 function App() {
   return (
   <div>
-    <LoginForm/>
-  </div>
+    <Navbar/>
+   </div>
   )
 }
 
