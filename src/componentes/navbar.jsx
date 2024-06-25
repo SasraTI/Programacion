@@ -10,6 +10,7 @@ const Navbar = () => {
         setShowPopup(!showPopup);
     };
 
+
     return (
         <>
             <nav>
@@ -22,8 +23,8 @@ const Navbar = () => {
                 <div>
                     <ul id="navbar">
                         <li><a className="active" href="index.html">Inicio</a></li>
-                        <li><a href="index.html">Nosotros</a></li>
-                        <li><a href="index.html">Contacto</a></li>
+                        <li><a href="index.html" onClick={(e) => { e.preventDefault(); alert('Nosotros = Yo, Santi. ¿Quién más?'); }}>Nosotros</a></li>
+                        <li><a href="index.html" onClick={(e) => { e.preventDefault(); alert('Contacto está en construcción'); }}>Contacto</a></li>
                         <li>
                             <button onClick={togglePopup} className="popup-button">
                                 <FaUser className='icon' />

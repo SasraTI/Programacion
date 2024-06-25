@@ -12,7 +12,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   align-items: center;
   min-height: 100vh;
-  background: url('./imagenes/backround.jpg')no-repeat;
+  background: url('./imagenes/backround.jpg')no-repeat; 
   background-size: cover;
   background-position: center;
 }
