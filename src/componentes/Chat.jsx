@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ChatStyle.css';
 import botAvatar from '../imagenes/Bot.png';
 import userAvatar from '../imagenes/user.jpg';
+import PopupTable from './TblPro';
 
 const EjercicioMindfulness = () => (
   <>
@@ -173,6 +174,7 @@ const Chat = () => {
     'me siento triste': (
       <>
         Lo siento mucho, ¿quieres que te recomiende algunos ejercicios de Mindfulness para mejorar tu ánimo? Aquí tienes uno: <EjercicioMindfulness />
+        Si necesitas hablar con uno de nuestros profesionales, presiona el siguiente botón: <PopupTable></PopupTable>
       </>
     ),
     'me siento ansioso': (

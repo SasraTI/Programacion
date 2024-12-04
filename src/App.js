@@ -14,7 +14,6 @@ function App() {
     <Chat/>
     <p></p>
     <Footer/>
-   
    </div>
   )
 }

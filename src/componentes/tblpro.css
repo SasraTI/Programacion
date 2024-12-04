@@ -1,0 +1,113 @@
+/* Contenedor general */
+.popup-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Botón de apertura */
+  .open-popup-button {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .open-popup-button:hover {
+    background-color: #454545;
+  }
+  
+  /* Fondo del popup */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Contenido del popup */
+  .popup-content {
+    background: rgb(171, 171, 171);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .close-popup-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #fdcae1;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8f8e8e;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Botón de agendar */
+  .schedule-button {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .schedule-button:hover {
+    background-color: #fdcae1;
+  }
+  
